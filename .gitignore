@@ -19,5 +19,6 @@ Lib/
 !.streamlit/config.toml
 
 # data
-data/
+data/*
+!data/
 !data/2013-data.json
