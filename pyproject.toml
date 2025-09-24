@@ -8,11 +8,9 @@ dependencies = [
     "altair>=5.5.0",
     "bs4>=0.0.2",
     "curl-cffi>=0.13.0",
-    "ethnicolr>=0.15.0",
     "pandas>=2.3.2",
     "sqlalchemy>=2.0.43",
     "streamlit>=1.49.1",
-    "tensorflow>=2.20.0",
 ]
 
 [dependency-groups]
