@@ -196,7 +196,6 @@ def clean_all_entries_by_year(year: int) -> pd.DataFrame:
     return df
 
 
-# todo - decide if i should clean and create more columns based on victim and shooter info
 if __name__ == '__main__':
     year_start = 2013
     clean_all_entries_by_year(year=year_start)
