@@ -202,27 +202,27 @@ def display_information():
         lead to more incidents.
     
     3. Total incidents per day are the highest at the start of the month.
-    - These could be statistical outliers but days 1, 4, and 5 are the highest values while the proceeding days are
-    similar in total incidents.
-    - Day 31 is the lowest in value, but this may be due to the 31st day only being found in 7 of the 12 months.
+        - These could be statistical outliers but days 1, 4, and 5 are the highest values while the proceeding days are
+        similar in total incidents.
+        - Day 31 is the lowest in value, but this may be due to the 31st day only being found in 7 of the 12 months.
     
     4. Total incidents per state are highest in larger states.
-    - California, Illinois, and Texas have the highest amount of incidents and by a decent margin compared to the rest
-    of the 47 states.
-    - California and Texas have a staggering 39+ million and 31+ million person population, but Illinois has a mere 12+ 
-    million person population.
-    - I figured more population would correlate to more incidents, but there is obviously more nuance to these incidents
-    than population count alone.
+        - California, Illinois, and Texas have the highest amount of incidents and by a decent margin compared to the rest
+        of the 47 states.
+        - California and Texas have a staggering 39+ million and 31+ million person population, but Illinois has a mere 12+ 
+        million person population.
+        - I figured more population would correlate to more incidents, but there is obviously more nuance to these incidents
+        than population count alone.
     
     5. 24,000+ of the 36000 total incidents have been classified as 'Suspect Unknown'
-    - From the start, I noticed that the majority of these incidents list unidentified perpetrators.
-    - This raises the question: Are mass shooters more likely to get away with their actions than be caught?
-    - The answer isn’t clear for several reasons:
-        - The data appears to be based on initial news reports, and Mass Shooting Tracker may not follow up on every 
-        case to see if a perpetrator was later identified.
-        - Some of the sources may not publish updates when suspects are named or arrested.
-        - In some cases, law enforcement may not release the names of perpetrators publicly even after investigations 
-        are complete.
+        - From the start, I noticed that the majority of these incidents list unidentified perpetrators.
+        - This raises the question: Are mass shooters more likely to get away with their actions than be caught?
+        - The answer isn’t clear for several reasons:
+            - The data appears to be based on initial news reports, and Mass Shooting Tracker may not follow up on every 
+            case to see if a perpetrator was later identified.
+            - Some of the sources may not publish updates when suspects are named or arrested.
+            - In some cases, law enforcement may not release the names of perpetrators publicly even after investigations 
+            are complete.
     """)
 
     st.subheader("Final Thoughts")
