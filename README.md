@@ -30,7 +30,7 @@ To run Mass Shooting Visualizer, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Orangeliquid/Mass-Shooting-Visualizer
-   cd Mass_Shooting_Analysis
+   cd Mass-Shooting-Visualizer
    ```
 
 2. Ensure UV is downloaded:
@@ -46,13 +46,13 @@ To run Mass Shooting Visualizer, follow these steps:
 
 ## Getting Started
 
-1. Verify your current directory in your terminal is in Mass_Shooting_Analysis
+1. Verify your current directory in your terminal is in Mass-Shooting-Visualizer
    - in terminal run:
       ```bash
       uv run streamlit run streamlit_app.py
       ```
       
-2. Your browser will not open and the web application will be displaying the "Information" Page
+2. Your browser will now open and the web application will be displaying the "Information" Page
    - Here you will find the following information:
      - "Purpose of Project"
      - "Process of Project"
@@ -191,3 +191,4 @@ The data visualization aspect of this project solidified some of the more promin
 ## License
 
 This project is licensed under the [MIT License](LICENSE.txt).
+
